@@ -1,6 +1,9 @@
 # Git Cheat Sheet
 It contains all commonly and uncommonly used git commands with explanation.
 
+Table of Contents:
+1. [Setup and Configuration](#setup-and-configuration)
+
 ## 1. Setup and Configuration:
 1. Sets the username for all repositories on your machine.
 ```

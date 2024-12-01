@@ -2,7 +2,7 @@
 It contains all commonly and uncommonly used git commands with explanation.
 
 Table of Contents:
-1. [Setup and Configuration](#setup-and-configuration)
+1. [Setup and Configuration](-1.-setup-and-configuration)
 2. [Creating and Initializing Repositories](#creating-and-initializing-repositories)
 3. [Staging and Committing Changes]()
 4. [Viewing Changes and Logs]()

@@ -3,16 +3,16 @@ It contains all commonly and uncommonly used git commands with explanation.
 
 Table of Contents:
 1. [Setup and Configuration](#1-setup-and-configuration)
-2. [Creating and Initializing Repositories](#creating-and-initializing-repositories)
-3. [Staging and Committing Changes]()
-4. [Viewing Changes and Logs]()
-5. [Branching and Merging]()
-6. [Remote Repositories]()
-7. [Tagging]()
-8. [Undoing Changes]()
-9. [Stashing Changes]()
-10. [Advanced Operations]()
-11. [Collaboration and Contributing]()
+2. [Creating and Initializing Repositories](#2-creating-and-initializing-repositories)
+3. [Staging and Committing Changes](#3-staging-and-committing-changes)
+4. [Viewing Changes and Logs](#4-viewing-changes-and-logs)
+5. [Branching and Merging](#5-branching-and-merging)
+6. [Remote Repositories](#6-remote-repositories)
+7. [Tagging](#7-tagging)
+8. [Undoing Changes](#8-undoing-changes)
+9. [Stashing Changes](#9-stashing-changes)
+10. [Advanced Operations](#10-advanced-operations)
+11. [Collaboration and Contributing](#11-collaboration-and-contributing)
 
 ## 1. Setup and Configuration:
 1. Sets the username for all repositories on your machine.

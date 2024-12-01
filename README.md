@@ -195,14 +195,34 @@ git stash pop
 git stash drop <stash>
 ```
 ## 10. Advanced Operations
-
+1. Applies a specific commit to the current branch.
 ```
+git cherry-pick <commit>
 ```
-
+2. Moves the base of the current branch to the specified branch.
 ```
+git rebase <branch-name>
 ```
-
+3. Displays a log of all reference updates (useful for recovery).
 ```
+git reflog
+```
+4. Helps identify the commit that introduced a bug.
+```
+git bisect
+```
+## 11. Collaboration and Contributing
+1. Creates a personal copy of a repository on GitHub or similar platforms.
+```
+git fork
+```
+2. Fetches changes from the original repository of a fork.
+```
+git fetch upstream
+```
+3. Replays local commits on top of the upstream branch.
+```
+git rebase upstream/<branch>
 ```
 
 

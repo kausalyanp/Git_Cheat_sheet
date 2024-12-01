@@ -225,6 +225,11 @@ git fetch upstream
 git rebase upstream/<branch>
 ```
 
+###
+Created By Kausalya N P
+>> Users can copy this repo for educational purpose.
+###
+
 
 
 

@@ -1,6 +1,8 @@
 # Git Cheat Sheet
 It contains all commonly and uncommonly used git commands with explanation.
 
+<a name="top"></a>
+
 Table of Contents:
 1. [Setup and Configuration](#1-setup-and-configuration)
 2. [Creating and Initializing Repositories](#2-creating-and-initializing-repositories)
@@ -35,6 +37,8 @@ git config --global core.editor <editor>
 ```
 git config --global alias.<alias-name> <command>
 ```
+[Back to Top](#top)
+
 ## 2. Creating and Initializing Repositories
 1. Initializes a new Git repository in the current directory.
 ```
@@ -44,6 +48,8 @@ git init
 ```
 git clone <repository-url>
 ```
+[Back to Top](#top)
+
 ## 3. Staging and Committing Changes
 1. Adds a file to the staging area.
 ```
@@ -65,6 +71,8 @@ git commit -a -m "Commit message"
 ```
 git restore --staged <file>
 ```
+[Back to Top](#top)
+
 ## 4. Viewing Changes and Logs
 1.  Displays the status of files in the working directory and staging area.
 ```
@@ -90,6 +98,8 @@ git log --oneline
 ```
 git show <commit-hash>
 ```
+[Back to Top](#top)
+
 ## 5. Branching and Merging
 1. Lists all branches in the repository.
 ```
@@ -119,6 +129,8 @@ git merge <branch-name>
 ```
 git branch -d <branch-name>
 ```
+[Back to Top](#top)
+
 ## 6. Remote Repositories
 1. Links a local repository to a remote repository.
 ```
@@ -144,6 +156,8 @@ git pull
 ```
 git push --set-upstream origin <branch-name>
 ```
+[Back to Top](#top)
+
 ## 7. Tagging
 1. Creates a lightweight tag for the current commit.
 ```
@@ -165,6 +179,8 @@ git push origin <tag-name>
 ```
 git push --tags
 ```
+[Back to Top](#top)
+
 ## 8. Undoing Changes
 1. Restores a file to its last committed state.
 ```
@@ -186,6 +202,8 @@ git reset --hard <commit>
 ```
 git revert <commit>
 ```
+[Back to Top](#top)
+
 ## 9. Stashing Changes
 1. Temporarily saves changes without committing them.
 ```
@@ -207,6 +225,8 @@ git stash pop
 ```
 git stash drop <stash>
 ```
+[Back to Top](#top)
+
 ## 10. Advanced Operations
 1. Applies a specific commit to the current branch.
 ```
@@ -224,6 +244,8 @@ git reflog
 ```
 git bisect
 ```
+[Back to Top](#top)
+
 ## 11. Collaboration and Contributing
 1. Creates a personal copy of a repository on GitHub or similar platforms.
 ```
@@ -237,6 +259,7 @@ git fetch upstream
 ```
 git rebase upstream/<branch>
 ```
+[Back to Top](#top)
 
 ###
 Created By Kausalya N P
